@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  mysqldbAftas:
+    image: mysql
+    restart: always
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_DATABASE: competition_management
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_USER: moussafia
+      MYSQL_PASSWORD: 1234
+  api:
+    build: ./CMspringboot
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysqldbAftas
+  aftas_front:
+    build: ./CMangular
+    restart: always
+    ports:
+      - 4200:4200
+    depends_on:
+      - api
