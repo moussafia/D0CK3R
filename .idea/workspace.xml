@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94aa1300-16e3-4fc4-9381-83e63b8183fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMspringboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CMspringboot/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <workItem from="1702288280532" duration="452000" />
       <workItem from="1705073296956" duration="121000" />
       <workItem from="1705073510627" duration="4985000" />
-      <workItem from="1705238247282" duration="6686000" />
+      <workItem from="1705238247282" duration="8068000" />
     </task>
     <servers />
   </component>
